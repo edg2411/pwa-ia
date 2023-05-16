@@ -14,6 +14,8 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => cache.addAll(urlsToCache))
   );
+  // Llama a la función checkForUpdates() para verificar si hay actualizaciones
+  checkForUpdates();
 });
 
 // Activación del Service Worker y eliminación de cachés antiguos
