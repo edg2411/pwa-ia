@@ -1,5 +1,5 @@
 // Asigna un nombre y una versión al caché
-const CACHE_NAME = 'mi-pwa-cache-v1';
+const CACHE_NAME = 'mi-pwa-cache-v2';
 
 // Archivos a cachear
 const urlsToCache = [
